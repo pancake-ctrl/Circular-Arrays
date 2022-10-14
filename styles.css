@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(204, 241, 253);
+  }
+  
+  h1 {
+    color: black;
+  }
+
+  button {
+    /* border: none; */
+    color: rgb(20, 10, 10);
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+    
+  }
+
+  .button1{
+    padding: px 0px;
+    margin-bottom: 10px;
+    
+  }
+  
+  #takeTicketPosition{
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  .square {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 0px 10px;
+    height: 250px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000000;
+    display: inline-block;
+    position: relative;
+    
+    
+  }
+
+  span.b {
+    
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(3, 3, 3);    
+    background-color: rgb(255, 255, 255);
+    margin: 50px 2px; 
+    text-align: center;
+  }
+
+  span.c {
+    
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    padding: px;
+    border: 1px solid rgb(3, 3, 3);    
+    background-color: rgb(255, 255, 255);
+    margin: 50px 2px; 
+    text-align: center;
+  }
+  .circle {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(250, 0, 0);
+    border-radius: 50%;
+  }
+  
+  #posOne {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 15px 15px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000000;
+    display: inline-block;
+    
+    
+  }
+
+
+ 
+
+  #posThree {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 15px 15px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000000;
+    display: inline-block;
+  }
+
+  #posFour {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 15px 15px;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000000;
+    display: inline-block;
+  }
+
+  .textPositioning {
+    text-align: left;
+  }
