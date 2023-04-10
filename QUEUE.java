@@ -37,6 +37,8 @@ public class QUEUE {
         q.getQueue();
 
         }
+
+        
 }
 
 class STACK implements iQueuable{
@@ -69,7 +71,11 @@ class STACK implements iQueuable{
     
             
          public void enqeue(String data)
+         //Current index =i
+         //next index =(i+1)%N
+         //prev index = (i+N-1)%N
             {
+                //exit code if front overlaps with rear
                 if ((rear + 1) % size == front){
                     return;
                 }        
@@ -92,6 +98,7 @@ class STACK implements iQueuable{
             {
                 if (isEmpty() == true){
                     System.out.println("Queue is empty");
+                    return;
                     
                 }
                 
@@ -100,10 +107,15 @@ class STACK implements iQueuable{
                     rear = -1;
                 }
                 else {
+                    
+                
                     front = (front + 1) % size;
-                }
+                
     
                 System.out.println("The item that is removed is " + queue[front-1]);
+                
+
+                }
             }
             
             public void getQueue()
